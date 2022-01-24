@@ -5,6 +5,17 @@ body {
     background-image: url("../images/banner.png");
     background-size: 100% 100%;
     text-align: center;
-    color: #ffffff;
+    color: #eef5f1;
     text-shadow: 2px 2px 8px #000000;
+}
+.col-md-5 {
+    
+    font-family: "Gill Sans Extrabold", cursive, serif;
+    color: #b12b2b;
+}
+
+.col-md-12 {
+    
+    font-family: "Gill Sans Extrabold", cursive, serif;
+    color: #b12b2b;
 }

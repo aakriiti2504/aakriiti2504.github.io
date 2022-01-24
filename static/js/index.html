@@ -11,16 +11,17 @@
 </head>
 
 <body>
-
+  <body style="background-color:#7f9464;">
   <div class="container">
     <div class="row">
-      <div class="col-md-12 jumbotron text-center">
+      <div class="col-md-12 jumbotron text-center" style="background-image: url('https://images.fineartamerica.com/images-medium-large-5/8-streptococcus-bacteria-science-photo-library.jpg');
+      background-size: auto; background-position: center; color: white">
         <h1>Belly Button Biodiversity Dashboard</h1>
         <p>Use the interactive charts below to explore the dataset</p>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-2">
+      <div class="col-md-2" style="color: rgb(10, 2, 17);">
         <div class="well">
           <h5>Test Subject ID No.:</h5>
           <!-- <select id="selDataset"></select> -->
@@ -33,16 +34,33 @@
           <div id="sample-metadata" class="panel-body"></div>
         </div>
       </div>
-      <div class="col-md-5">
+      <div class="col-md-5"; style="color: rgb(77, 16, 134);">
         <div id="bar"></div>
+        <div class="col-md-5">
+          <p>
+            The barchart above shows the count of the Top-10 bacteria cultures found in this particular Test Subject.
+            Hovering over a bar on the barchart will show the breakdown within each OTU for this Test Subject.
+          </p>
+        </div>
       </div>
-      <div class="col-md-5">
+      <div class="col-md-5" style="color: rgb(80, 18, 138);">
         <div id="gauge"></div>
+        <p class="bubble">
+          This Gauge Chart displays the value as a measure from 0-10 on the progress bar in the gauge chart when an individual ID is selected from the dropdown menu.
+        </p>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-12" style="color: rgb(78, 16, 136);">
         <div id="bubble"></div>
+        <p class="bubble">
+          The bubble chart shows the relative distribution of OTU vs. Bacterial counts per sample for this Test Subject.
+          Please hover over a bubble to get more info.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      </div>       
       </div>
     </div>
   </div>
