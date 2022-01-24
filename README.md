@@ -14,7 +14,7 @@ country  to identify bacterial species that colonize our belly buttons. Each per
 Those who participated in the study will be able to visit the website and select their id numbers to see which bacterial species live in their navals and gather other information. 
 
 
-
+![Capture](https://user-images.githubusercontent.com/23488019/150728148-f0fd42e1-2a28-450a-bf0d-99b6240a27bb.PNG)
 
 
 ## Purpose : 
